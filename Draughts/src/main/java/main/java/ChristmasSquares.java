@@ -121,6 +121,7 @@ class MaximizeSquares {
                 count = oldCount;
             }
         }
+        /* main P*/
         for (int i = 0; i < list.length; i++) {
             if (!touched[i]) {
                 a[count++] = list[i];
